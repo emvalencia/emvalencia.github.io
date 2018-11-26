@@ -1,8 +1,10 @@
 import React from "react";
+import { Parallax } from "react-parallax";
 
 var headerStyle = {
   width: "100%",
-  backgroundColor: "#1f3d64",
+  height: "100%",
+  backgroundColor: "darkgrey",
   color: "whitesmoke",
   textAlign: "center",
 }
@@ -16,16 +18,21 @@ var welcomeStatement = {
 export default class Header extends React.Component {
   render() {
     return (
-      <div style={headerStyle}>
-          { <img
-            src={require("../../assets/carefree.jpg")}
-            alt=""
-            id="profilePic"
-          /> }
+
+      <div>
+        <div style={headerStyle}>
+        { <img
+          src={require("../../assets/carefree.jpg")}
+          alt=""
+          id="profilePic"
+        /> }
           <div style={welcomeStatement}>
-            Hey there, I'm Emery
+            Hey there, <br/> 
+            I'm Emery
           </div>
+        </div>
       </div>
+
     );
   }
 }

@@ -15,13 +15,8 @@ export default class HomeLayout extends React.Component {
         <div id="header">
           <Header />
         </div>
-        <div>
-          <HomeContent />
-        </div>
-
-        <div>
-          <Footer />
-        </div>
+        <HomeContent />
+        <Footer />
 
 
 
