@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
 import HomeLayout from './components/homepage/HomeLayout';
-import {Parallax} from 'react-parallax';
 
 class App extends Component {
   render() {

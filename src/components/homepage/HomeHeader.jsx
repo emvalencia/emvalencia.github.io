@@ -1,5 +1,4 @@
 import React from "react";
-import { Parallax } from "react-parallax";
 
 var headerStyle = {
   width: "100%",
@@ -28,7 +27,7 @@ export default class Header extends React.Component {
         /> }
           <div style={welcomeStatement}>
             Hey there, <br/> 
-            I'm Emery
+            I'm Emeryyyy
           </div>
         </div>
       </div>

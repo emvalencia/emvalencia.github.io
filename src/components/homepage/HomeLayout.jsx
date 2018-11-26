@@ -5,7 +5,7 @@ import Footer from "./HomeFooter";
 import "./stylesheet.css";
 
 var mainStyle = {
-  //backgroundImage: "url(${../..assets/forest.jpg})",
+  //nothing
 }
 
 export default class HomeLayout extends React.Component {
@@ -17,9 +17,6 @@ export default class HomeLayout extends React.Component {
         </div>
         <HomeContent />
         <Footer />
-
-
-
         </div>
     );
   }
